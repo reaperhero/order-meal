@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Home from './components/Home';
 import Pcontent from './components/Pcontent';
-
 import './assets/css/index.css'
+import Login from './components/Login';
 
 class App extends Component {
 
@@ -16,6 +16,7 @@ class App extends Component {
         <div>
 
           <Route exact path="/" component={Home} />
+          <Route path="/login" component={Login} />
           <Route path="/pcontent/:id" component={Pcontent} />
 
         </div>
