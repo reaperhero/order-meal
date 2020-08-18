@@ -163,3 +163,9 @@ npm install
 npm start
 ```
 
+- 最终效果
+
+![](src/assets/images/WX20200819-004354@2x.png)
+
+![](src/assets/images/WX20200819-004553@2x.png)
+
